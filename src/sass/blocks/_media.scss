@@ -1,0 +1,129 @@
+@media (max-width: 1439px) {
+    .container {
+        max-width: 1160px;
+    }
+    .menu {
+        &__item {
+            padding-right: 45px;
+        }
+    }
+    .promo {
+        &__title {
+            font-size: 50px;
+            line-height: 75px;
+        }
+        &__subtitle {
+            font-size: 25px;
+            margin-top: 25px;
+        }
+        &__btn {
+            margin-top: 25px;
+        }
+        &__wrapper {
+            grid-template-columns: minmax(auto, 550px) 630px;
+            column-gap: 30px;
+        }
+        &__img {
+            width: 630px;
+            height: 580px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .menu {
+        &__item {
+            padding-right: 35px;
+            &-link {
+                font-size: 20px;
+            }
+        }
+    }
+    .menu__btn {
+        width: 220px;
+        height: 70px;
+    }
+    .promo {
+        &__wrapper {
+            grid-template-columns: minmax(auto, 400px) 560px;
+        }
+        &__img {
+            width: 560px;
+            height: 520px;
+        }
+        &__title {
+            font-size: 38px;
+            line-height: 60px;
+        }
+        &__subtitle {
+            font-size: 23px;
+            line-height: 40px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .menu {
+        padding-top: 50px;
+        &__item {
+            padding-right: 20px;
+            &-link {
+                font-size: 18px;
+            }
+        }
+    }
+    .menu__btn {
+        width: 150px;
+        height: 70px;
+        font-size: 20px;
+    }
+    .promo {
+        padding-top: 60px;
+        &__wrapper {
+            grid-template-columns: minmax(auto, 300px) 420px;
+            column-gap: 15px;
+        }
+        &__img {
+            width: 420px;
+            height: 402px;
+        }
+        &__title {
+            font-size: 28px;
+            line-height: 44px;
+        }
+        &__subtitle {
+            font-size: 19px;
+            line-height: 30px;
+            margin-top: 15px;
+        }
+        &__btn {
+            width: 250px;
+            height: 60px;
+            font-size: 22px;
+            padding-top: 10px;
+            margin-top: 15px;
+        }
+    }       
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}

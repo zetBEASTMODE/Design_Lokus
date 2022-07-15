@@ -1,0 +1,14 @@
+@mixin underline_bottom {
+    &:after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        display: block;
+        height: 5px;
+        background-color: #FEC62D;
+        bottom: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 21px;
+    }
+}

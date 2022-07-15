@@ -1,0 +1,25 @@
+.promo {
+    padding-top: 105px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: minmax(auto, 750px) 834px;
+        column-gap: 72px;
+    }
+    &__img {
+        width: 834px;
+        height: 782px;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &__subtitle {
+        margin-top: 50px;
+    }
+    &__btn {
+        margin-top: 50px;
+        text-align: center;
+        padding-top: 20px;;
+    }
+}
