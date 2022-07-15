@@ -55,6 +55,26 @@
         box-shadow: 1px 1px 14px 10px rgba(255, 255, 255, 0.4);
         &:after {
             content: '';
+            position: absolute;
+            border: 20px solid transparent; 
+            border-left: 30px solid #FEC62D;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 42%;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            width: 128px;
+            height: 128px;
+            background: rgba(255, 255, 255, 0.4);
+            border-radius: 65px;
+            top: -13px;
+            left: -13px;
+        }
+        &:hover {
+            border: none;
+            text-decoration: none;
         }
     }
 }
