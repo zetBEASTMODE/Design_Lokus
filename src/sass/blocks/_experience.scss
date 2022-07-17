@@ -1,0 +1,65 @@
+.experience {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 615px minmax(auto, 1000px);
+        grid-auto-rows: 700px;
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+        img {
+            object-fit: cover;
+        }
+    }
+    &__item {
+        padding: 50px 105px 120px 135px;
+        background-color: #CCF0E6;
+        z-index: -2;
+    }
+    &__index {
+        display: flex;
+        justify-content: center;
+        &-item {
+            &:nth-child(1) {
+                margin-right: 40px;
+            }
+            &_num {
+                font-weight: 800;
+                font-size: 70px;
+                line-height: 105px;
+                color: $main_color;
+            }
+            &_text {
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 45px;
+                color: $main_color;
+            }
+        }
+    }
+    &__comment {
+        margin-top: 123px;
+        &_descr {
+            position: relative;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 38px;
+            color: #486958;
+            &:before {
+                content: url('../../icons/comma.svg');
+                position: absolute;
+                top: -53px;
+                left: -35px;
+                z-index: -1;
+            }
+        }
+        &_name {
+            font-style: italic;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 38px;
+            color: $main_color;
+            margin-top: 50px;
+        }
+    }
+}

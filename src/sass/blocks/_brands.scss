@@ -1,0 +1,12 @@
+.brands {
+    padding-top: 250px;
+    &__title {
+        text-align: center;
+    }
+    &__wrapper {
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
